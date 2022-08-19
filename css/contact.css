@@ -286,8 +286,9 @@
             width: 100%; } }
       @media (max-width: 520px) {
         .top-banner__inner1 .top-banner__image {
-          width: 65%;
-          margin-bottom: 20px; } }
+          width: 100%;
+    margin-top: 46px;
+    margin-bottom: -154px;} }
     @media (max-width: 520px) {
       .top-banner__inner1 {
         flex-direction: column; } }
@@ -1121,3 +1122,21 @@ font-family: 'Garamond';
     margin-bottom: -28px;
     
   }
+  @media (max-width: 667px) { .foot{
+    display: flex;
+flex-direction: column;
+margin-left: 73px;
+    font-family: 'Calisto-MT';
+    font-weight: 600;
+    padding: 2px;
+    text-align: center;
+    margin-right: 123px;
+    position: relative;
+    bottom: 0px;
+    line-height: 26px;}}
+
+    @media (max-width: 667px) { .fas {
+          
+      padding-left: 168px;
+      /* align-items: center; } */
+}}

@@ -1188,3 +1188,29 @@ font-family: 'Garamond';
     z-index: 2;
 
    }
+
+
+   @media (max-width: 667px) { .fas {
+          
+    padding-left: 168px;
+    /* align-items: center; } */
+}}
+
+@media (max-width: 667px) { .foot{
+  display: flex;
+flex-direction: column;
+margin-left: 73px;
+  font-family: 'Calisto-MT';
+  font-weight: 600;
+  padding: 2px;
+  text-align: center;
+  margin-right: 123px;
+  position: relative;
+  bottom: 0px;
+  line-height: 26px;}}
+
+  @media (max-width: 667px) { .fas {
+          
+    padding-left: 168px;
+    /* align-items: center; } */
+}}

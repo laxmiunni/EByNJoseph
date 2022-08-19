@@ -281,6 +281,13 @@
           width: 50%; }
           .top-banner__inner1 .top-banner__image img {
             width: 100%; } }
+            @media (max-width: 667px) {
+              .top-banner__inner1 .top-banner__image {
+                width: 50%; }
+                .top-banner__inner1 .top-banner__image img {
+                  width: 100%;
+                  margin-top: 27px;
+                  margin-left: 60px; } }
       @media (max-width: 520px) {
         .top-banner__inner1 .top-banner__image {
           width: 65%;
@@ -289,6 +296,14 @@
       .top-banner__inner1 {
         flex-direction: column; } }
   
+        @media (max-width: 667px) { .brand-span {
+          margin-left: 61px; }}
+
+          @media (max-width: 1250px) { .brand-span {
+            font-weight: 600;
+            font-size: 20px;
+            color: black;
+            font-family: auto; }}
   .brand-span {
     font-weight: 600;
     font-size: 20px;
@@ -298,7 +313,8 @@
       font-weight: 600;
       font-size: 14px;
       color: black;
-      font-family: auto; }
+      font-family: auto; 
+      margin-left: -2px;}
   
     /* .brand-span1 {
       font-weight: 600;
@@ -965,6 +981,18 @@
           margin-bottom: 20px; } 
         
         }
+        @media (max-width: 667px) { .foot{
+          display: flex;
+      flex-direction: column;
+      margin-left: 73px;
+          font-family: 'Calisto-MT';
+          font-weight: 600;
+          padding: 2px;
+          text-align: center;
+          margin-right: 123px;
+          position: relative;
+          bottom: 0px;
+          line-height: 26px;}}
         
         .foot{
             font-family: 'Calisto-MT';
@@ -975,11 +1003,22 @@
             position: relative;
             bottom: 0px;
         }
+
+        @media (max-width: 667px) { .text p{
+          margin-left: 64px;
+        }}
   .text{
     text-align: justify;
     font-family: Georgia, serif;
     font-size: 12px;
   }
+
+
   .text p{
     font-size: 12px;
   }
+  @media (max-width: 667px) { .fas {
+          
+    padding-left: 168px;
+    /* align-items: center; } */
+}}
